@@ -10,7 +10,7 @@ Junior Backend разработчик
     pip install -r requirements.txt
 
 ## Запуск:
-    run command: gunicorn -w 1 --threads 4 project.wsgi:application
+    run command: gunicorn -w 1 --threads 4 project.wsgi:application -b 0.0.0.0:8000
 
 ## Эндпоинты
     /:

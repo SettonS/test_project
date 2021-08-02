@@ -1,10 +1,8 @@
-version: "3.9"
-   
+version: "3.3"
+
 services:
   web:
-    image: settons/test_project:latest
+    image: settons/test_project:v1
     command: gunicorn -w 1 --threads 4 project.wsgi:application -b 0.0.0.0:8000
-    volumes:
-      - .:/code
     ports:
       - "8000:8000"

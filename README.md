@@ -1,7 +1,7 @@
 ТЕСТОВОЕ ЗАДАНИЕ на позицию 
 Junior Backend разработчик
 
-## Docker
+## Docker:
    для запуска контейнера требуется скачать docker-compose.yaml
    и выполнить команду docker-compose up
     
